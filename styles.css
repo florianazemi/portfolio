@@ -1,0 +1,109 @@
+
+@import url("fonts/font/stylesheet.css");
+
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family:GT Walsheim Pro;
+    background-color: #F7F7F7;
+}
+  
+.header1, .footer1{
+    width: 100%;
+    position: fixed;        
+    color: #fff;
+    
+}
+
+.header1, nav a{
+    float: left;
+    transition: .5s ease;
+    color: #040e18;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header1, nav a:hover{
+    text-decoration: underline;
+}
+
+.header1{
+    top: 0;
+    margin-left: -8px;
+    height: 66px;
+    background-color: #f7f7f7;
+}
+.footer1{
+    bottom: 0;
+    background: #333;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content:flex-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-child{
+    flex-direction: column;
+    flex-grow: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.container-child2{
+    flex-direction: column;
+    flex-grow: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.buttoni{
+    background-color: #040e18;
+    padding: 12px 22px;
+    border-radius: 4px;
+    color: #f6f5f3;
+    font-size: 16px;
+    height: 19px;
+    margin-top: 12px;
+}
+
+
+.sm-p{
+    font-size: 43px;
+    font-weight: 100;
+}
+
+.bg-p{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.header1, h5{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 21px;
+    padding-left: 26px;
+}
+
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 24px 42px;
+    
+}
