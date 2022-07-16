@@ -6,6 +6,7 @@ body{
     padding-bottom: 40px;
     font-family:GT Walsheim Pro;
     background-color: #F7F7F7;
+    margin: 0;
 }
   
 .header1, .footer1{
@@ -32,7 +33,17 @@ body{
     margin-left: -8px;
     height: 66px;
     background-color: #f7f7f7;
+    background-color: rgba(0,0,0,0)!important; 
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+      display: none;
+    }
+  }
+
 .footer1{
     bottom: 0;
     background: #333;
@@ -51,22 +62,41 @@ body{
     flex-wrap: wrap;
 }
 
-.container-child{
+.container-child, .container-child3, .container-child2, .container-child4{
     flex-direction: column;
     flex-grow: 2;
     display: flex;
     align-items: flex-start;
     justify-content: left;
     padding-left: 50px;
+    
 }
 
 .container-child2{
-    flex-direction: column;
-    flex-grow: 2;
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    padding-left: 50px;
+    border-top: 1px solid #040e18;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuX3F2dFciIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIxMy41IiBoZWlnaHQ9IjEzLjUiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg1MCkiPjxsaW5lIHgxPSIwIiB5PSIwIiB4Mj0iMCIgeTI9IjEzLjUiIHN0cm9rZT0iIzlEOUQ5RCIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz4gPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNwYXR0ZXJuX3F2dFcpIiBvcGFjaXR5PSIxIi8+PC9zdmc+')
+}
+
+.container-child4{
+    border-top: 1px solid #040e18;
+    background-color: #313132;
+    color: white;
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><defs><pattern id="pattern_qvtW" patternUnits="userSpaceOnUse" width="18" height="18" patternTransform="rotate(90)"><line x1="0" y="0" x2="0" y2="18" stroke="#64A3D8" stroke-width="30"/></pattern></defs> <rect width="100%" height="100%" fill="url(#pattern_qvtW)" opacity="1"/></svg>')
+}
+
+
+.container-child3{
+    border-bottom: 1px solid #040e18;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 286px;
+    align-items: center;
+    
+}
+
+.container-child3{
+    align-items: center;
+
 }
 
 .buttoni{
@@ -87,7 +117,7 @@ body{
 
 .bg-p{
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .header1, h5{
@@ -99,7 +129,6 @@ body{
     font-size: 21px;
     padding-left: 26px;
 }
-
 
 nav a{
     color: black;

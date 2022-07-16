@@ -15,7 +15,7 @@
         
             <nav>
                 <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="#about">About</a>
                 <a href="#">Projects</a>
                 <a href="#" class="buttoni">Contact</a>
             </nav>
@@ -30,6 +30,14 @@
         <div class="container-child2">
         <img src="images/imgprofile.jpg" alt="" style="
     width: 400px;">
+        </div>
+        
+        <div id="about" class="container-child4">
+        <p class="bg-p">About Me</p>
+        </div>
+
+        <div class="container-child3">
+        <p class="sm-p">My background in Web-Design and eye for design perfectly compliments my passion for software development with a focus in efficient and componentized UI development.</p>
         </div>
         
     </div>    
