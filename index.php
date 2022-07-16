@@ -16,6 +16,7 @@
             <nav>
                 <a href="#">Home</a>
                 <a href="#about">About</a>
+                <a href="#skills">Skills</a>
                 <a href="#">Projects</a>
                 <a href="#" class="buttoni">Contact</a>
             </nav>
@@ -28,7 +29,7 @@
         
         </div>
         <div class="container-child2">
-        <img src="images/imgprofile.jpg" alt="" style="
+        <img src="imgprofile.jpg" alt="" style="
     width: 400px;">
         </div>
         
@@ -38,6 +39,25 @@
 
         <div class="container-child3">
         <p class="sm-p">My background in Web-Design and eye for design perfectly compliments my passion for software development with a focus in efficient and componentized UI development.</p>
+        </div>
+
+        <div id="skills" class="container-child6">
+        <p class="bg-p">My Skills</p>
+        </div>
+        <div class="container-child5">
+            <?php 
+            $dir = "skills/*.png";
+            $images = glob( $dir );
+            foreach( $images as $image ):
+                echo "
+                <div class='card'>
+                <div class='card-image'>
+                    <img src='" . $image . "' alt='" . $image . "'>
+                </div>
+            </div>";
+            endforeach;
+            ?>
+            
         </div>
         
     </div>    
