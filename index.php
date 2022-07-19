@@ -102,8 +102,39 @@
                 
               
             <?php } ?>
+
             
             
+            
+         </div>
+         <div id="Contact" class="container-child6">
+            <p class="bg-p">Contact</p>
+         </div>
+
+         <div class="container-child5">
+         <div class='card'>
+                   <div class='card-image'>
+                    <a href="https://instagram.com/flhorian"><img  src='icons/instagram.png' alt=''></a>
+                    
+                       
+                   </div>
+                   
+               </div>
+               <div class='card'>
+                   <div class='card-image'>
+                    <a href="https://www.facebook.com/florian.azemi.0"><img src='icons/facebook.png' alt=''></a>
+                       
+                   </div>
+                   
+               </div>
+               <div class='card'>
+                   <div class='card-image'>
+                    <a href="https://www.linkedin.com/in/florian-azemi-82860b161/"><img src='icons/linkedin.png' alt=''></a>
+                       
+                   </div>
+                   
+               </div>
+                
          </div>
       </div>
       <div class="footer1">
