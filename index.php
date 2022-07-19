@@ -137,8 +137,9 @@
                 
          </div>
       </div>
-      <div class="footer1">
-         <div class="container">Copyright &copy; 2022 Florian Azemi</div>
+      <div  class="container-child7">
+            <p class="bg-p">Copyright &copy; 2022 Florian Azemi</p>
       </div>
+      
    </body>
 </html>
